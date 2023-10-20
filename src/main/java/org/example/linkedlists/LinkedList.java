@@ -12,6 +12,7 @@ public interface LinkedList <E> {
     E peekFirst();
     E peekLast();
     // peek looks at elements
+    // y
     
     void clear();
     
