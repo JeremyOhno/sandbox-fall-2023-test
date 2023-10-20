@@ -56,9 +56,10 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
             Node next = head.next; //2
             head.next = null; // 3
             head = next; // 4
+
         }
-        return element;
         count --;
+        return element;
     }
 
     @Override
@@ -74,7 +75,7 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
             if (head == tail) {
                 head = null;
                 tail = null;
-            } :else {
+            } else {
 
                 Node current = head;//2
                 Node previous = head;//2
@@ -86,8 +87,8 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
                 tail.next = null;//4
             }
         }
-        return element;
         count --;
+        return element;
     }
 
     @Override
